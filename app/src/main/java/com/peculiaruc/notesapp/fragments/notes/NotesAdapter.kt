@@ -9,7 +9,7 @@ import com.peculiaruc.notesapp.R
 import com.peculiaruc.notesapp.adapter.BaseRecyclerAdapter
 import com.peculiaruc.notesapp.model.Task
 
-class NotesAdapter(note: MutableList<ContactsContract.CommonDataKinds.Note> = mutableListOf())
+class NotesAdapter(notes: MutableList<ContactsContract.CommonDataKinds.Note> = mutableListOf())
     : BaseRecyclerAdapter<Task>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
@@ -19,7 +19,7 @@ class NotesAdapter(note: MutableList<ContactsContract.CommonDataKinds.Note> = mu
 
         class ViewHolder( view: View): BaseViewHolder<ContactsContract.CommonDataKinds.Note>(view) {
             override fun onBind(data: Task) {
-           //    view.notes_View.text = data.note
+          //     view.description.text = data.notes
             }
 
 
