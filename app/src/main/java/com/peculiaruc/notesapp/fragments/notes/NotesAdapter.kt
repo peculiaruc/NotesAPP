@@ -10,7 +10,7 @@ import com.peculiaruc.notesapp.adapter.BaseRecyclerAdapter
 import com.peculiaruc.notesapp.model.Task
 
 class NotesAdapter(notes: MutableList<ContactsContract.CommonDataKinds.Note> = mutableListOf())
-    : BaseRecyclerAdapter<Task>() {
+    : BaseRecyclerAdapter<ContactsContract.CommonDataKinds.Note>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
             ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_notes, parent,
@@ -18,8 +18,13 @@ class NotesAdapter(notes: MutableList<ContactsContract.CommonDataKinds.Note> = m
 
 
         class ViewHolder( view: View): BaseViewHolder<ContactsContract.CommonDataKinds.Note>(view) {
-            override fun onBind(data: Task) {
+
+            fun onBind(data: ContactsContract.CommonDataKinds.Note) {
           //     view.description.text = data.notes
+            }
+
+            override fun onBind(data: Task) {
+                TODO("Not yet implemented")
             }
 
 

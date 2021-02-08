@@ -108,6 +108,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../open-source/oppia-android/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../open-source/oppia-android/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../open-source/oppia-android/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../open-source/oppia-android/data/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../open-source/oppia-android/model/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
